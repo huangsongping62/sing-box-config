@@ -453,7 +453,7 @@
       "tag":"我的AkiUS",
       "type":"selector",
       "outbounds":[
-        "{美国节点}"
+        "{all}"
       ],
       "filter":[
         {"action":"include","keywords":["AkiUS"]}
