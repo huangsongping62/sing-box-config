@@ -147,7 +147,21 @@
         "美国节点",
         "我的SugarUS"
       ],
-      "default": "美国节点"
+      "default": "我的SugarUS"
+    },
+    {
+      "tag":"YouTube",
+      "type":"selector",
+      "outbounds":[
+        "🚀 节点选择",
+        "香港自动",
+        "香港节点",
+        "台湾节点",
+        "新加坡节点",
+        "日本节点",
+        "美国节点"
+      ],
+      "default": "我的SugarUS"
     },
     {
       "tag":"TikTok",
@@ -255,7 +269,7 @@
       "default": "🎯 全球直连"
     },
     {
-      "tag":"Bahamut",
+      "tag":"GitHub",
       "type":"selector",
       "outbounds":[
         "🚀 节点选择",
@@ -509,7 +523,11 @@
         "outbound": "OpenAI"
       },
       {
-        "rule_set": ["geosite-youtube", "geoip-google", "geosite-google", "geosite-github"],
+        "rule_set": ["geosite-youtube"],
+        "outbound": "YouTube"
+      },
+      {
+        "rule_set": ["geoip-google", "geosite-google", "geosite-github"],
         "outbound": "Google"
       },
       {
@@ -529,8 +547,8 @@
         "outbound": "BiliBili"
       },
       {
-        "rule_set": "geosite-bahamut",
-        "outbound": "Bahamut"
+        "rule_set": "geosite-github",
+        "outbound": "GitHub"
       },
       {
         "rule_set": "geosite-spotify",
@@ -663,13 +681,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bilibili.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-bahamut",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bahamut.srs",
         "download_detour": "🎯 全球直连"
       },
       {
