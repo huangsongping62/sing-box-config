@@ -160,8 +160,7 @@
         "新加坡节点",
         "日本节点",
         "美国节点"
-      ],
-      "default": "我的SugarUS"
+      ]
     },
     {
       "tag":"TikTok",
@@ -448,6 +447,16 @@
       ],
       "filter":[
         {"action":"include","keywords":["SugarUS"]}
+      ]
+    },
+    {
+      "tag":"我的AkiUS",
+      "type":"selector",
+      "outbounds":[
+        "美国节点"
+      ],
+      "filter":[
+        {"action":"include","keywords":["AkiUS"]}
       ]
     },
     {
