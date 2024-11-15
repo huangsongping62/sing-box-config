@@ -137,19 +137,6 @@
       ]
     },
     {
-      "tag":"OpenAI",
-      "type":"selector",
-      "outbounds":[
-        "🚀 节点选择",
-        "台湾节点",
-        "新加坡节点",
-        "日本节点",
-        "美国节点",
-        "我的SugarUS"
-      ],
-      "default": "我的SugarUS"
-    },
-    {
       "tag":"YouTube",
       "type":"selector",
       "outbounds":[
@@ -219,6 +206,19 @@
       ]
     },
     {
+      "tag":"OpenAI",
+      "type":"selector",
+      "outbounds":[
+        "🚀 节点选择",
+        "台湾节点",
+        "新加坡节点",
+        "日本节点",
+        "美国节点",
+        "我的SugarUS"
+      ],
+      "default": "我的SugarUS"
+    },
+    {
       "tag":"Telegram",
       "type":"selector",
       "outbounds":[
@@ -280,6 +280,15 @@
         "新加坡节点",
         "日本节点",
         "美国节点"
+      ],
+      "default": "美国节点"
+    },
+    {
+      "tag":"DMMxx",
+      "type":"selector",
+      "outbounds":[
+        "🚀 节点选择",
+        "日本节点"
       ],
       "default": "美国节点"
     },
@@ -550,10 +559,6 @@
         "outbound": "BiliBili"
       },
       {
-        "rule_set": "geosite-github",
-        "outbound": "GitHub"
-      },
-      {
         "rule_set": "geosite-spotify",
         "outbound": "Spotify"
       },
@@ -578,8 +583,12 @@
         "outbound": "Microsoft"
       },
       {
-        "rule_set": ["geosite-category-games", "geosite-dmm"],
+        "rule_set": ["geosite-category-games"],
         "outbound": "Games"
+      },
+      {
+        "rule_set": ["geosite-dmm"],
+        "outbound": "DMMxx"
       },
       {
         "rule_set": ["geosite-hbo", "geosite-primevideo"],
