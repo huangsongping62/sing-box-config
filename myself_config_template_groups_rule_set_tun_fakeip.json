@@ -476,7 +476,7 @@
         "outbound": "🎯 全球直连"
       },
       {
-        "rule_set": "geosite-openai",
+        "rule_set": ["geosite-openai", "geosite-google-gemini"],
         "outbound": "🔮 OpenAI"
       },
       {
@@ -556,8 +556,15 @@
         "tag": "geosite-openai",
         "type": "remote",
         "format": "binary",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/规则/OpenAI.srs",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs",
         "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "geosite-google-gemini",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://github.com/SagerNet/sing-geosite/blob/rule-set/geosite-google-gemini.srs",
+        "download_detour": "🚀 节点选择"
       },
       {
         "tag": "geosite-youtube",
