@@ -530,7 +530,7 @@
         "outbound": "🎯 全球直连"
       },
       {
-        "rule_set": "geosite-openai",
+        "rule_set": ["geosite-openai", "geosite-github"],
         "outbound": "🔮 OpenAI"
       },
       {
@@ -538,7 +538,7 @@
         "outbound": "🚗 YouTube"
       },
       {
-        "rule_set": ["geoip-google", "geosite-google", "geosite-github"],
+        "rule_set": ["geoip-google", "geosite-google"],
         "outbound": "🧩 Google"
       },
       {
