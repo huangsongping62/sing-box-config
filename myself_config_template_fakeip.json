@@ -211,7 +211,8 @@
       ],
       "filter":[
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
-      ]
+      ],
+      "default":"🇺🇸 美国节点"
     },
     {
       "tag":"☎️ Telegram",
