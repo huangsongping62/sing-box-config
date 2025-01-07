@@ -19,4 +19,10 @@ https://singbox.bigbigtiger62.buzz/config/https://xxxxxxsubscribe?token=123456&f
 
 https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_tun2.json
 
+https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_fakeip.json
+
+https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/my_config_template_tun.json
+
+https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/my_config_template_groups_rule_set_tun_fakeip.json
+
 注：
