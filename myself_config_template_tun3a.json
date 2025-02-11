@@ -101,6 +101,59 @@
       ]
     },
     {
+      "tag":"♻️ 自动选择",
+      "type":"urltest",
+      "outbounds":[
+        "{all}"
+      ],
+      "filter":[
+        {"action":"exclude","keywords":["网站|地址|剩余|过期|时间|有效"]}
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "tag":"🇭🇰 香港自动",
+      "type":"urltest",
+      "outbounds":[
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]}
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "tag":"🇺🇸 美国自动",
+      "type":"urltest",
+      "outbounds":[
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+        "tag":"🇺🇸 美国GPT",
+        "type":"urltest",
+        "outbounds":[
+          "{all}"
+        ],
+        "filter":[
+          {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]},
+          {"action":"exclude","keywords":["BanUS"]}
+        ],
+        "url": "http://www.gstatic.com/generate_204",
+        "interval": "10m",
+        "tolerance": 50
+    },
+    {
       "tag":"🚗 YouTube",
       "type":"selector",
       "outbounds":[
@@ -123,7 +176,7 @@
         "🇺🇸 美国节点",
         "{all}"
       ],
-      "default": "🇺🇸 美国节点"
+      "default": "🇺🇸 美国自动"
     },
     {
       "tag":"🎬 Netflix",
@@ -136,7 +189,7 @@
         "🇺🇸 美国节点",
         "{all}"
       ],
-      "default": "🇭🇰 香港节点"
+      "default": "🇭🇰 香港自动"
     },
     {
       "tag":"🐰 Disney+",
@@ -149,7 +202,7 @@
         "🇺🇸 美国节点",
         "{all}"
       ],
-      "default": "🇭🇰 香港节点"
+      "default": "🇭🇰 香港自动"
     },
     {
       "tag":"🧩 Google",
@@ -175,7 +228,7 @@
       "filter":[
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
       ],
-      "default": "🇺🇸 美国节点"
+      "default": "🇺🇸 美国GPT"
     },
     {
       "tag":"☎️ Telegram",
@@ -237,7 +290,7 @@
         "🇺🇸 美国节点",
         "{all}"
       ],
-      "default": "🇺🇸 美国节点"
+      "default": "🇭🇰 香港自动"
     },
     {
       "tag":"🍎 Apple",
@@ -289,7 +342,7 @@
         "🇺🇸 美国节点",
         "{all}"
       ],
-      "default": "🇭🇰 香港节点"
+      "default": "🇭🇰 香港自动"
     },
     {
       "tag":"🌎 Global",
@@ -323,19 +376,6 @@
       ]
     },
     {
-      "tag":"🇭🇰 香港自动",
-      "type":"urltest",
-      "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]}
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },
-    {
       "tag":"🇺🇸 美国节点",
       "type":"selector",
       "outbounds":[
@@ -344,46 +384,6 @@
       "filter":[
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
       ]
-    },
-    {
-      "tag":"🇺🇸 美国自动",
-      "type":"urltest",
-      "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },
-    {
-        "tag":"🇺🇸 美国GPT",
-        "type":"urltest",
-        "outbounds":[
-          "{all}"
-        ],
-        "filter":[
-          {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]},
-          {"action":"exclude","keywords":["BanUS"]}
-        ],
-        "url": "http://www.gstatic.com/generate_204",
-        "interval": "10m",
-        "tolerance": 50
-      },
-    {
-      "tag":"♻️ 自动选择",
-      "type":"urltest",
-      "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"exclude","keywords":["网站|地址|剩余|过期|时间|有效"]}
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
     },
     {
       "type": "direct",
