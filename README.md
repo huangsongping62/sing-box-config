@@ -15,9 +15,9 @@ file=后面是规则模版地址：https://huangsongping62.github.io/sing-box-co
 
 复制粘贴下面地址到浏览器地址栏，把config/后面的地址替换为订阅节点：
 
-https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_tun3a.json
+https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_tun3b.json
 
-https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_fakeip3a.json
+https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_fakeip3b.json
 
 
 注：
