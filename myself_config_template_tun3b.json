@@ -485,7 +485,7 @@
         "outbound": "🚁 Microsoft"
       },
       {
-        "rule_set": ["geosite-category-games"],
+        "rule_set": ["geosite-category-games", "geosite-category-games-!cn"],
         "outbound": "🎮 Games"
       },
       {
@@ -661,6 +661,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-games.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "geosite-category-games-!cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-games-!cn.srs",
         "download_detour": "🎯 全球直连"
       },
       {
