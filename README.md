@@ -7,7 +7,7 @@ https://xxxxxxx.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=http
 
 把config前面的地址替换为订阅转换后端的地址：https://sing-box-subscribe-brown-eta.vercel.app
 
-订阅转换后端地址也可以用cloudflare代理替换：https://singbox.bigbigtiger62.buzz
+订阅转换后端地址也可以用cloudflare代理替换：https://singbox.bigbigtiger63.top
 
 config后面的地址是机场或节点的订阅转换地址，最好用sub-store进行管理
  
@@ -19,5 +19,7 @@ https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?t
 
 https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_fakeip3b.json
 
+https://singbox.bigbigtiger63.top/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_tun3b.json
 
+https://singbox.bigbigtiger63.top/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_fakeip3b.json
 注：
