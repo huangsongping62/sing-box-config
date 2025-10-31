@@ -19,7 +19,7 @@ https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?t
 
 https://sing-box-subscribe-brown-eta.vercel.app/config/https://xxxxxxsubscribe?token=123456&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_fakeip3b.json
 
-https://singbox.bigbigtiger63.top/config/http://154.29.150.51:3001/Xt21n5G9uGCbtvRBUAz2/download/MYVPS-noHY?target=sing-box&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_tun3d.json
+https://singbox.bigbigtiger63.top/config/http://154.29.150.51:3001/Xt21n5G9uGCbtvRBUAz2/download/MYVPS-noHY?target=sing-box&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_tun3e.json
 
-https://singbox.bigbigtiger63.top/config/http://154.29.150.51:3001/Xt21n5G9uGCbtvRBUAz2/download/MYVPS-noHY?target=sing-box)&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_fakeip3d.json
+https://singbox.bigbigtiger63.top/config/http://154.29.150.51:3001/Xt21n5G9uGCbtvRBUAz2/download/MYVPS-noHY?target=sing-box)&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_fakeip3e.json
 注：
