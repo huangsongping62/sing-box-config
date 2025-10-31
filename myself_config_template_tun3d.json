@@ -565,7 +565,7 @@
         "tag": "geoip-google",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/google.srs",
+        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/googleip.srs",
         "download_detour": "🎯 全球直连"
       },
       {
@@ -586,7 +586,7 @@
         "tag": "geoip-telegram",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/telegram.srs",
+        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/telegramip.srs",
         "download_detour": "🎯 全球直连"
       },
       {
@@ -600,7 +600,7 @@
         "tag": "geoip-twitter",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/twitter.srs",
+        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/twitterip.srs",
         "download_detour": "🎯 全球直连"
       },
       {
@@ -614,7 +614,7 @@
         "tag": "geoip-facebook",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/facebook.srs",
+        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/facebookip.srs",
         "download_detour": "🎯 全球直连"
       },
       {
@@ -629,13 +629,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geosite/bilibili.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-bahamut",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geosite/bahamut.srs",
         "download_detour": "🎯 全球直连"
       },
       {
@@ -656,7 +649,7 @@
         "tag": "geoip-netflix",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/netflix.srs",
+        "url": "https://raw.githubusercontent.com/huangsongping62/singbox-geosite/geoip/netflixip.srs",
         "download_detour": "🎯 全球直连"
       },
       {
