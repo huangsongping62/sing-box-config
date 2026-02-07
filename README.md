@@ -15,7 +15,7 @@ file=后面是规则模版地址：https://huangsongping62.github.io/sing-box-co
 
 复制粘贴下面地址到浏览器地址栏，把config/后面的地址替换为订阅节点：
 
-https://singbox.bigbigtiger63.top/config/订阅地址&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_tun3e.json
+https://singbox.bigbigtiger63.top/config/订阅地址&file=https://huangsongping62.github.io/sing-box-config/my_config_template_tun3fusa.json
 
-https://singbox.bigbigtiger63.top/config/订阅地址&file=https://huangsongping62.github.io/sing-box-config/myself_config_template_fakeip3e.json
+https://singbox.bigbigtiger63.top/config/订阅地址&file=https://huangsongping62.github.io/sing-box-config/my_config_template_fakeip3fusa.json
 注：
